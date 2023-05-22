@@ -10,3 +10,5 @@ Another reason could be due to the phenomenon discussed in https://papers.ssrn.c
 Since the expiry of the pair is on Friday, there are large jumps in data. To counter this, price of the contract one day before expiry is taken and the new contract price is taken for the expiry day. Then a backward adjusted average of the prices is taken to create a time series.
 
 The results are promising with the effect prominent equally  in the in-sample - 2010-2017 and out-of-sample 2018-2022 data.
+
+Special thanks to @AnkitQuant (twitter) who's monty carlo code I have shamelessly copied as it was neat. https://medium.com/@ankit_quant/when-to-stop-trading-a-strategy-28d104bb20b6
